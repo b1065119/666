@@ -3,6 +3,10 @@
 
 int main()
 {
+    int a;
+    a=1;
     printf("666\n");
-    return 0;
+
+    printf("a=%d",a);
+        return 0;
 }
