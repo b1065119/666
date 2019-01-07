@@ -12,7 +12,7 @@ int main()
     c=a+b;
     printf("num?\n");
     scanf("%d", &d);
-
+    printf("hi");
     printf("a=%d\n",a);
     printf("b=%lf\n",b);
     printf("c=%lf\n",c);
