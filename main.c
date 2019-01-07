@@ -3,18 +3,20 @@
 
 int main()
 {
-    int a;
+    int a,d;
     double b,c;
 
     a=1;
     a=a+10;
     b=6.999;
     c=a+b;
-    printf("666\n");
-
+    printf("num?\n");
+    scanf("%d", &d);
 
     printf("a=%d\n",a);
     printf("b=%lf\n",b);
     printf("c=%lf\n",c);
+    printf("d=%d\n",d);
+
     return 0;
 }
